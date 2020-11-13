@@ -1,0 +1,15 @@
+# 去除nfmovie广告
+
+[Rule]
+URL-REGEX,https:?/\/www\.nfmovies\.com\/static\/\w{6}-\d\.(jpg|gif),REJECT
+URL-REGEX,https:?/\/www\.nfmovies\.com\/static\/2020\w.*\.jpg,REJECT
+URL-REGEX,https:?/\/www\.nfmovies\.com\/static\/\d{1,4}.jpg,REJECT
+URL-REGEX,https:?/\/www\.nfmovies\.com\/static\/1.jpg,REJECT
+URL-REGEX,https\b.*\bbanner.jpg,REJECT
+URL-REGEX,https\b.*\bbanner\b.*\.jpg,REJECT
+URL-REGEX,https://\b.*\bnaifei\b.*/\?sid=\w{1,6},REJECT
+URL-REGEX,http.*yabo729.\b.*,REJECT
+URL-REGEX,http.*yabo.\b.* url,REJECT
+
+[MITM]
+hostname = *.nfmovies.com, *.yabo.*
