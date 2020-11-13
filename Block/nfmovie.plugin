@@ -11,5 +11,15 @@ URL-REGEX,https://\b.*\bnaifei\b.*/\?sid=\w{1,6},REJECT
 URL-REGEX,http.*yabo729.\b.*,REJECT
 URL-REGEX,http.*yabo.\b.* url,REJECT
 
+[URL Rewrite]
+^https:?/\/www\.nfmovies\.com\/static\/\w{6}-\d\.(jpg|gif) url reject-200
+^https:?/\/www\.nfmovies\.com\/static\/2020\w.*\.jpg url reject-200
+^https:?/\/www\.nfmovies\.com\/static\/\d{1,4}.jpg url reject-200
+^https:?/\/www\.nfmovies\.com\/static\/1.jpg url reject-200
+^https\b.*\bbanner.jpg url reject-200
+^https://\b.*\bnaifei\b.*/\?sid=\w{1,6} url reject-200
+^http.*yabo729.\b.* url reject-200
+^http.*yabo.\b.* url reject-200
+
 [MITM]
 hostname = *.nfmovies.com, *.yabo.*
