@@ -6,6 +6,7 @@ DOMAIN-SUFFIX, yabo729.com, reject
 
 [URL Rewrite]
 ^https:?/\/www\.nfmovies\.com\/static\/\w{6}-\d\.(jpg|gif) https://limbopro.xyz/usr/uploads/2020/10/2091577197.png 302
+^https:?/\/www\.nfmovies\.com\/static\/\w{8}-\d\.(jpg|gif) https://limbopro.xyz/usr/uploads/2020/10/2091577197.png 302
 ^https:?/\/www\.nfmovies\.com\/static\/2011\w.*\.jpg https://limbopro.xyz/usr/uploads/2020/10/2091577197.png 302
 ^https:?/\/www\.nfmovies\.com\/static\/\d{1,4}.jpg https://limbopro.xyz/usr/uploads/2019/11/3141795768.jpg 302
 ^https:?/\/www\.nfmovies\.com\/static\/1.jpg https://limbopro.xyz/usr/uploads/2019/11/3141795768.jpg 302
