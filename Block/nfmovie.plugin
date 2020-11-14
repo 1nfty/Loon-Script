@@ -10,7 +10,7 @@ DOMAIN-SUFFIX, yabo729.com, reject
 ^https:?/\/www\.nfmovies\.com\/static\/2011\w.*\.jpg url reject-200
 ^https:?/\/www\.nfmovies\.com\/static\/\d{1,4}.jpg url reject-200
 ^https:?/\/www\.nfmovies\.com\/static\/1.jpg url reject-200
-https:?/\/www\.naifei\.shop\/static\/banner\/banner.jpg url reject-200
+^https:?/\/www\.naifei\.shop\/static\/banner\/banner.jpg url reject-200
 ^https\b.*\bbanner.jpg url reject-200
 ^https\b.*\bbanner\b.*\.jpg url reject-200
 ^https://\b.*\bnaifei\b.*/\?sid=\w{1,6} url reject-200
