@@ -5,7 +5,7 @@ DOMAIN-SUFFIX, s96.cnzz.com, reject
 DOMAIN-SUFFIX, yabo729.com, reject
 
 [URL Rewrite]
-^https:?/\/www\.nfmovies\.com\/js\/play\.js\?20200503 https://github.com/1nfty/Loon-Script/raw/master/Block/nfmovies_play.js 302
+^https:?/\/www\.nfmovies\.com\/js\/play\.js\?20200503 https://raw.githubusercontent.com/1nfty/Loon-Script/master/Block/nfmovies_play.js 302
 ^https:?/\/www\.nfmovies\.com\/static\/\w{6}-\d{1,2}\.(jpg|gif) https://limbopro.xyz/usr/uploads/2020/10/2091577197.png 302
 ^https:?/\/www\.nfmovies\.com\/static\/2011\w.*\.jpg https://limbopro.xyz/usr/uploads/2020/10/2091577197.png 302
 ^https:?/\/www\.nfmovies\.com\/static\/\d{1,4}.jpg https://limbopro.xyz/usr/uploads/2020/10/2091577197.png 302
