@@ -1,4 +1,4 @@
-<script type="text/javascript">
+
     $.extend({
         message: function (a) {
             var b = {};
@@ -23,4 +23,4 @@
             }, b.time))
         }
     })
-</script>
+
